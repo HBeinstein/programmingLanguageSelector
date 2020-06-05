@@ -93,6 +93,10 @@ form label[for="QOption"] {
 }
 
 #title {
-  width: 10em;
+  width: 5em;
   float: left;
+  margin: 1em .5em 0em 1em;
+  padding: .7em;
+  border: 1px solid #d8d8d8;
+  background-color: white;
 }
