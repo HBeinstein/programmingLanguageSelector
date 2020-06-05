@@ -73,6 +73,7 @@ button {
   padding: 1em 6.5em;
   background-color: white;
   border: 1px solid #d8d8d8;
+  display: none;
 }
 
 input {

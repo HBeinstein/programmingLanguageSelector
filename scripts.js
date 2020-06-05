@@ -27,11 +27,11 @@ $(document).ready(function() {
     adder(questionFiveVal);
 
     if(counter >=5 && counter <10) {
-      console.log("ruby!");
+      $("#python").show();
     } else if(counter >=10 && counter <15) {
-      console.log("python!");
+      $("#ruby").show();
     } else if(counter >=15 && counter <20) {
-      console.log("java!");
+      $("#php").show();
     } else {
       console.log(error);
     }
