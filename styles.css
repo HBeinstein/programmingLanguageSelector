@@ -26,9 +26,17 @@ label {
   font-weight: normal;
 }
 
+a{
+  color: #131315;
+  
+}
+a:hover {
+  color: #f4f4f4;
+  background-color: #131315;
+}
+
 #rightContainer {
   height: 100vh;
-  border-radius: .5em;
 }
 
 #leftContainer {
@@ -85,5 +93,6 @@ form label[for="QOption"] {
 }
 
 #title {
-  width: 2.5em;
+  width: 10em;
+  float: left;
 }
