@@ -69,16 +69,22 @@ button {
   border: 1px solid #d8d8d8;
 }
 
+#python, #ruby, #php {
+  padding: 1em 6.5em;
+  background-color: white;
+  border: 1px solid #d8d8d8;
+}
+
 input {
   color: 131315;
   font-family: 'chivo';
 }
 
-#title {
-  writing-mode: vertical-rl;
-  color: 131315;
-}
 
 form label[for="QOption"] {
   padding-left: .5em;
+}
+
+#title {
+  width: 2.5em;
 }
