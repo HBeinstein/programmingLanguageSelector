@@ -37,3 +37,6 @@ $(document).ready(function() {
     }
   });
 });
+
+
+// use to reset form after you get results-- ie attach to a button on the results page to go back
