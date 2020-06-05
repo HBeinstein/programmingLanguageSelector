@@ -27,7 +27,8 @@ hannah.beinstein@gmail.com
 
 * HTML
 * CSS
-* Git
+* jQuery
+* Bootstrap
 
 ### License
 
