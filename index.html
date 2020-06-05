@@ -12,7 +12,7 @@
 <body>
   <div class="row" id="overallContainer">
     <div id="leftContainer" class="col-md-1">
-      <h1 id="title">Programming Language Selector</h1>
+      <h1 id="title">Programming<br>Language Selector</h1>
       <!-- <h4>Hannah Beinstein</h4> -->
     </div>
     <div id="rightContainer" class="col-md-6">
@@ -21,54 +21,54 @@
         <p>Answer the questions below to find out!</p>
 
         <form>
-          <div id="Q1Container">
+          <div id="Q1Container" class="well">
             <label for="Q1" id="Q1">What kind of music do you like?</label><br>
             <input type="radio" name="Q1" value=1 id="Q1Option1"> 
-            <label for="Q1Option1">Indie Rock</label><br>
+            <label for="QOption">Indie Rock</label><br>
             <input type="radio" name="Q1" value=2 id="Q1Option2">
-            <label for="Q1Option2">Pop</label><br>
+            <label for="QOption">Pop</label><br>
             <input type="radio" name="Q1" value=3 id="Q1Option3"> 
-            <label for="Q1Option3">Dance</label><br>
+            <label for="QOption">Dance</label><br>
           </div>
 
-          <div id="Q2Container">
+          <div id="Q2Container" class="well">
             <label for="Q2" id="Q2">What are you most interested in working on?</label><br>
             <input type="radio" name="Q2" value=1 id="Q2Option1"> 
-            <label for="Q2Option1">Apps</label><br>
+            <label for="QOption">Apps</label><br>
             <input type="radio" name="Q2" value=2 id="Q2Option2">
-            <label for="Q2Option2">Web Design</label><br>
+            <label for="QOption">Web Design</label><br>
             <input type="radio" name="Q2" value=3 id="Q2Option3"> 
-            <label for="Q2Option3">A little bit of everything!</label><br>
+            <label for="QOption">A little bit of everything!</label><br>
           </div>
 
-          <div id="Q3Container">
+          <div id="Q3Container" class="well">
             <label for="Q3" id="Q3">What animal is your favorite?</label><br>
             <input type="radio" name="Q3" value=1 id="Q3Option1"> 
-            <label for="Q3Option1">Dogs!</label><br>
+            <label for="QOption">Dogs!</label><br>
             <input type="radio" name="Q3" value=2 id="Q3Option2">
-            <label for="Q3Option2">Cats!</label><br>
+            <label for="QOption">Cats!</label><br>
             <input type="radio" name="Q3" value=3 id="Q3Option3"> 
-            <label for="Q3Option3">Snakes!</label><br>
+            <label for="QOption">Snakes!</label><br>
           </div>
 
-          <div id="Q4Container">
+          <div id="Q4Container" class="well">
             <label for="Q4" id="Q4">What do you do in your free time?</label><br>
             <input type="radio" name="Q4" value=1 id="Q4Option1"> 
-            <label for="Q4Option1">Get outdoors</label><br>
+            <label for="QOption">Get outdoors</label><br>
             <input type="radio" name="Q4" value=2 id="Q4Option2">
-            <label for="Q4Option2">Go to the gym</label><br>
+            <label for="QOption">Go to the gym</label><br>
             <input type="radio" name="Q4" value=3 id="Q4Option3"> 
-            <label for="Q4Option3">Take classes</label><br>
+            <label for="QOption">Take classes</label><br>
           </div>
 
-          <div id="Q5Container">
+          <div id="Q5Container" class="well">
             <label for="Q5" id="Q5">Do you like to work on front-end or back-end design?</label><br>
             <input type="radio" name="Q5" value=1 id="Q5Option1"> 
-            <label for="Q5Option1">Front-end</label><br>
+            <label for="QOption">Front-end</label><br>
             <input type="radio" name="Q5" value=2 id="Q5Option2">
-            <label for="Q5Option2">Back-end</label><br>
+            <label for="QOption">Back-end</label><br>
             <input type="radio" name="Q5" value=3 id="Q5Option3"> 
-            <label for="Q5Option3">A little bit of everything!</label><br>
+            <label for="QOption">A little bit of everything!</label><br>
           </div>
 
           <button type="reset" id="submitButton">Show me my results!</button>
@@ -77,9 +77,11 @@
       </div>
     </div>
 
-    <div class="col-md-5">
+    <div class="col-md-5" id="rightContainerHidden">
+      <div id="Python"> 
+        <p>You got Python! </p>
 
-
+      </div>
     </div>
   </div>
 </body>
