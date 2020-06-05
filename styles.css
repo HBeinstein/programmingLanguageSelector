@@ -4,28 +4,6 @@ body {
   font-family: proxima-nova, sans-serif;
 }
 
-#rightContainer {
-  /* border: 1px solid red; */
-  height: 100vh;
-  /* background-color: white; */
-  border-radius: .5em;
-}
-
-#leftContainer {
-  /* padding-top: 4em; */
-  height: 100vh;
-  /* border: 1px solid blue; */
- 
-}
-
-#overallContainer {
-  margin: 1em;
-  /* border: 1px solid pink; */
-  padding: 1em;
-  height: 100vh;
-  padding: none;
-}
-
 h1 {
   font-weight: bold;
   font-size: 3em;
@@ -36,7 +14,7 @@ h4 {
   font-weight: 700;
   font-size: 1.5em;
   color: 131315;
-
+  
 }
 
 p {
@@ -46,6 +24,22 @@ p {
 
 label {
   font-weight: normal;
+}
+
+#rightContainer {
+  height: 100vh;
+  border-radius: .5em;
+}
+
+#leftContainer {
+  height: 100vh;
+}
+
+#overallContainer {
+  margin: 1em;
+  padding: 1em;
+  height: 100vh;
+  padding: none;
 }
 
 #Q1, #Q2, #Q3, #Q4, #Q5 {
@@ -73,6 +67,10 @@ button {
   padding: 1em 6.5em;
   background-color: white;
   border: 1px solid #d8d8d8;
+  display: none;
+}
+
+#refreshButton {
   display: none;
 }
 

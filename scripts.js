@@ -14,6 +14,8 @@ let counter = 0;
 
 $(document).ready(function() {
   $("#submitButton").click(function() {
+    $("#resultsContainer p").hide();
+
     const questionOneVal = $("input[name='Q1']:checked").val();
     const questionTwoVal = $("input[name='Q2']:checked").val();
     const questionThreeVal = $("input[name='Q3']:checked").val();
@@ -28,15 +30,18 @@ $(document).ready(function() {
 
     if(counter >=5 && counter <10) {
       $("#python").show();
+      $("#refreshButton").show();
+      counter = 0;
     } else if(counter >=10 && counter <15) {
       $("#ruby").show();
+      $("#refreshButton").show();
+      counter = 0;
     } else if(counter >=15 && counter <20) {
       $("#php").show();
+      $("#refreshButton").show();
+      counter = 0;
     } else {
       console.log(error);
     }
   });
 });
-
-
-// use to reset form after you get results-- ie attach to a button on the results page to go back
