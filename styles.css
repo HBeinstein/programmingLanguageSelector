@@ -1,22 +1,54 @@
 body {
-  background-color: #f4f4f4;
+  color: aliceblue;
+  background-color: #e73948;
   font-family: Helvetica, sans-serif;
 }
 
 #right-container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 100vh;
+  padding-left: 10em;
 }
 
 #left-container {
   height: 100vh;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
  
 }
 
 #overallContainer {
   margin: 1em;
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
   padding: 1em;
   height: 100vh;
+}
+
+h1 {
+  font-weight: bold;
+
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1 em;
+}
+
+label {
+  font-weight: normal;
+}
+
+#Q1, #Q2, #Q3, #Q4, #Q5 {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+button {
+  color: #e73948;
+  font-weight: bold;
+  border-radius: .2em;
+  margin-top: 2em;
 }
