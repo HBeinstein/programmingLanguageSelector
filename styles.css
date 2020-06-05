@@ -5,12 +5,11 @@ body {
 
 #right-container {
   border: 1px solid red;
-
-
+  height: 100vh;
 }
 
 #left-container {
-  
+  height: 100vh;
   border: 1px solid blue;
  
 }
@@ -20,5 +19,4 @@ body {
   border: 1px solid pink;
   padding: 1em;
   height: 100vh;
-  
 }
