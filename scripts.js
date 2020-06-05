@@ -1,4 +1,3 @@
-
 function adder (value) {
   if (value === "1") {
     counter += 1;
@@ -14,7 +13,6 @@ function adder (value) {
 let counter = 0;
 
 $(document).ready(function() {
-
   $("#submitButton").click(function() {
     const questionOneVal = $("input[name='Q1']:checked").val();
     const questionTwoVal = $("input[name='Q2']:checked").val();
@@ -28,6 +26,14 @@ $(document).ready(function() {
     adder(questionFourVal);
     adder(questionFiveVal);
 
-    if(counter >=5 && <10)
+    if(counter >=5 && counter <10) {
+      console.log("ruby!");
+    } else if(counter >=10 && counter <15) {
+      console.log("python!");
+    } else if(counter >=15 && counter <20) {
+      console.log("java!");
+    } else {
+      console.log(error);
+    }
   });
 });
