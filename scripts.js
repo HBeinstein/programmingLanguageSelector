@@ -1,18 +1,32 @@
-function adder (value) {
-  if (value === "1") {
-    counter += 1;
-  } else if (value === "2") {
-    counter += 2;
-  } else if (value === "3") {
-    counter += 3;
-  } else {
-    console.log("error");
-  }
-}
+// function adder (value) {
+//   if (value === "1") {
+//     counter += 1;
+//   } else if (value === "2") {
+//     counter += 2;
+//   } else if (value === "3") {
+//     counter += 3;
+//   } else {
+//     console.log("error");
+//   }
+// }
 
-let counter = 0;
+// let counter = 0;
 
 $(document).ready(function() {
+  function adder (value) {
+    if (value === "1") {
+      counter += 1;
+    } else if (value === "2") {
+      counter += 2;
+    } else if (value === "3") {
+      counter += 3;
+    } else {
+      console.log("error");
+    }
+  }
+  
+  let counter = 0;
+
   $("#submitButton").click(function() {
     $("#resultsContainer p").hide();
 
